@@ -1,0 +1,13 @@
+
+Just another jQuery UI datetimepicker
+-------------------------------------
+
+See `index.html` for demo
+
+About
+-----
+
+The code is from http://blog.w3visions.com/2009/04/date-time-picker-with-jquery-ui-datepicker/ who originaly got the idea from http://blogs.uct.ac.za/blog/lovemores-world/2009/02/25/an-effective-jquery-date-time-picker.
+
+I just added support for jQuery UI 1.8.
+

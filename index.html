@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Just another jQuery UI datetimepicker</title>
+    <link type="text/css" rel="stylesheet" href="css/ui-lightness/jquery-ui-1.8.2.datepicker.slider.css" />
+    <link type="text/css" rel="stylesheet" href="css/jquery.timepicker.css" />
+
+    <script src="js/jquery-1.4.2.min.js"></script>
+    <script src="js/jquery-ui-1.8.2.datepicker.slider.js"></script>
+    <script src="js/jquery.datetimepicker.js"></script>
+    <script>
+      $(function () {
+        $("input.datetimepicker").datetime({
+          userLang  : 'en',
+          americanMode: false,
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <h1> Demo </h1>
+    <form action="">
+      <input type="text" class="datetimepicker" value="1970-01-01 00:00" />
+    </form>
+    <h1> About </h1>
+    <p>took from : http://blog.w3visions.com/2009/04/date-time-picker-with-jquery-ui-datepicker/
+      who originaly got the idea from http://blogs.uct.ac.za/blog/lovemores-world/2009/02/25/an-effective-jquery-date-time-picker
+    </p>
+    <p>I just Added support for jQuery UI 1.8</p>
+  <body>
+<html>
